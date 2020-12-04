@@ -13,9 +13,8 @@ const maquinaTuring = (archivo, cinta, final, estado) => {
 
       cinta.splice(i, 1, actual.w);
       i += actual.m;
-      estado = actual.n;
-      ( actual.m ? 1 : -1)
-      console.info("Nodo : ", estado, "SobreEscribe : ", actual.w, "Movimiento: ",);
+      estado = actual.n; 
+      console.info("Nodo : ", estado, "SobreEscribe : ", actual.w, "Movimiento : ", actual.m);
     }
     return cinta;
   } catch (err) {
