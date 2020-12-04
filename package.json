@@ -1,0 +1,12 @@
+{
+  "name": "turing",
+  "version": "1.0.0",
+  "description": "Maquina de Turing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js maquina.json "
+  },
+  "author": "Jesus <christian.castillo.lozano@gmail.com>",
+  "license": "ISC",
+  "dependencies": {}
+}
